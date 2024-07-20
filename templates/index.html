@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Article Summarizer</h1>
+    <form id="summarizeForm">
+        <label for="urlInput">Enter Article URL:</label>
+        <input type="text" id="urlInput" name="url" required>
+        <button type="submit">Summarize</button>
+    </form>
+
+    <div class="summary" id="summaryResult">
+        <!-- Summarized article and response will appear here -->
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

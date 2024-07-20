@@ -1,0 +1,6 @@
+Flask
+newspaper3k
+google-generativeai
+python-dotenv
+Flask-CORS
+requests
