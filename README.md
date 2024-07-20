@@ -53,11 +53,11 @@ Create a .env file in the root directory and add your Google API key:
 ```
 GOOGLE_API_KEY=your_google_api_key
 ```
-![image](https://github.com/user-attachments/assets/86ed7f53-ddd4-4523-8dbd-94187edd08c1)
-
 
 ### Run the Application
 
 ```
 python app.py
 ```
+
+![image](https://github.com/user-attachments/assets/86ed7f53-ddd4-4523-8dbd-94187edd08c1)
